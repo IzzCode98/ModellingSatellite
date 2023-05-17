@@ -165,7 +165,8 @@ for k in np.arange(0, 10000, 100):
             vcollide = k * (2**0.5)  
                         
             if min(collide) <= R_m:
-                print 'Satellite has crashed: it had initial velocity of', vcollide 
+                print(f"Satellite has crashed: it had initial velocity of {vcollide}")
+    
         
         if k >= esc_v_split:
                           
